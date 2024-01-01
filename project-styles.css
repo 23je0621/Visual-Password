@@ -1,0 +1,155 @@
+.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7, .image-8, .image-9 {
+    width: 90px;
+    height:90px;
+    border-style: solid;
+    border-color:rgb(18, 18, 127) ;
+    border-width: 5px;
+    margin-top: 0px;
+}
+
+/* .image-3, .image-7 {
+    width: 100px;
+    height:100px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 5px;
+}*/
+
+.cells {
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-1,.image-2,.image-3 {
+    margin-top: 0px;
+}
+
+/*.heading {
+    font-weight: bold;
+    color:blue;
+    font-size: 50px;
+    margin-left: 685px;
+    margin-bottom: 100px;
+}*/
+
+.login {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0,86,24);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 900px;
+}
+
+.entry {
+    display:inline-block;
+    margin-left: 790px;
+    font-size: 30px;
+    margin-top: -90px;
+    margin-bottom: 100px;
+}
+
+.pass-intruc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0;
+    margin-left: 550px;
+    margin-top: 55px;
+    margin-bottom:50px;
+}
+
+.image-7,.image-8,.image-9 {
+
+
+}
+
+.newuser {
+    font-size: 30px;
+    margin: 0;
+    margin-left:1050px ;
+}
+
+/*button {
+  
+    background-color: rgb(210, 43, 71);
+    border-radius:40px ;
+    height: 80px;
+    width:100px;
+    color: white;
+    border:none;
+    font-size: 20px;
+    margin-left: 66px;
+    margin-top: 100px;
+
+}*/
+
+body {
+    background-color: rgb(148, 219, 247);
+}
+
+.login-button {
+    background-color: rgb(18, 18, 127);
+    border-radius:30px;
+    width:200px;
+    height:60px;
+    color:White;
+    border:none;
+    font-size:20px;
+    margin-left: 730px;
+    margin-top: 50px;
+    
+}
+
+.login-button1 {
+    background-color: rgb(18, 18, 127);
+    border-radius:30px;
+    width:200px;
+    height:60px;
+    color:White;
+    border:none;
+    font-size:20px;
+    margin-left: 30px;
+}
+
+.colour-band {
+    height:55px;
+    display:flex;
+    background-color: rgb(18, 18, 127);
+    font-size: 40px;
+    color:white;
+    font-family:sans-serif;
+    justify-content: center;
+
+
+
+}
+body{ 
+    margin: 0;
+}
+
+/*button {
+    background-color: rgb(18, 18, 127);
+}*/
+
+.button-container {
+    display:block;
+}
+
+.button1 {
+margin-right: 10px; /* Optional: Add some space between buttons */
+}
+
+.heading {
+font-size:30px ;
+color: black;
+margin:0;
+margin-left: 600px;
+margin-top: 50px;
+display: inline-block;
+font-weight: bold;
+}
+
